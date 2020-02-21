@@ -107,9 +107,8 @@ def winner(board)                 # returns winner "X" or "O" or nil for no winn
     return(won?(board))
   else
     won?(board).each do |cells|
-      index_1 = cells[0]
+      return cells
     end
-    return board[index_1]
   end
 end
 
