@@ -113,5 +113,5 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
 puts(won?(board))
-puts(winner(board))
-play(board)
+puts(draw?(board))
+puts(full?(board))
