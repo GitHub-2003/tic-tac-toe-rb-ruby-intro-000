@@ -7,4 +7,13 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
+=begin
+board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
+play(board)
+
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+play(board)
+
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+=end
 play(board)
