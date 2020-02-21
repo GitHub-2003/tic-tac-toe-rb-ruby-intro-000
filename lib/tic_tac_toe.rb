@@ -112,5 +112,6 @@ def winner(board)                 # returns winner "X" or "O" or nil for no winn
 end
 
 board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
+puts(won?(board))
 puts(winner(board))
 play(board)
