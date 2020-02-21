@@ -111,7 +111,28 @@ def winner(board)                 # returns winner "X" or "O" or nil for no winn
   end
 end
 
-board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
 puts(won?(board))
 puts(draw?(board))
 puts(full?(board))
+
+board = ['X', ' ', ' ', ' ', 'X', ' ', ' ', ' ', 'X']
+display_board(board)
+puts(won?(board))
+puts(draw?(board))
+puts(full?(board))
+
+board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
+display_board(board)
+puts(won?(board))
+puts(draw?(board))
+puts(full?(board))
+
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+display_board(board)
+puts(won?(board))
+puts(draw?(board))
+puts(full?(board))
+
+
