@@ -143,4 +143,3 @@ puts(full?(board))
 puts("over?  #{over?(board)}, !!!")
 =end
 
-play(board)
