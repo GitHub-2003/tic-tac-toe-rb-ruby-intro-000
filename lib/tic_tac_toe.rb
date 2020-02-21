@@ -88,15 +88,17 @@ def won?(board)
 end
 
 def play(board)
-  while !(full?(board)) && winner(board) == nil
+  while !over?(board)
     turn(board)
   end
-  if winner(board) == "X"
+  if draw?(board)
+    puts("Cat\'s Game!")
+  elsif winner(board) == "X"
     puts("Congratulations X!")
   elsif winner(board) == "O"
     puts("Congratulations O!")
   else
-    puts("Cat\'s Game!")
+    puts("what's going on?")
   end
 end
 
