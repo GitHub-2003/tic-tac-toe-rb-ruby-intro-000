@@ -113,3 +113,4 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
 puts(winner(board))
+play(board)
