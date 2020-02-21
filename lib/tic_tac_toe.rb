@@ -93,9 +93,9 @@ def play(board)
   end
   if draw?(board)
     puts("Cat\'s Game!")
-  elsif winner(board) == "X"
+  elsif winner(board)[0] == "X"
     puts("Congratulations X!")
-  elsif winner(board) == "O"
+  elsif winner(board)[0] == "O"
     puts("Congratulations O!")
   else
     puts("what's going on?")
