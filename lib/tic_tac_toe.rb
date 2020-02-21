@@ -134,5 +134,3 @@ display_board(board)
 puts(won?(board))
 puts(draw?(board))
 puts(full?(board))
-
-
