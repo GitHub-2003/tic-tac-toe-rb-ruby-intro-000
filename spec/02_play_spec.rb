@@ -3,7 +3,7 @@ require_relative '../lib/tic_tac_toe.rb'
 describe './lib/tic_tac_toe.rb' do
   describe '#play' do
 
-=begin    it 'asks for players input on a turn of the game' do
+it 'asks for players input on a turn of the game' do
       board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       allow($stdout).to receive(:puts)
       allow(self).to receive(:over?).and_return(false, true)
@@ -82,7 +82,7 @@ describe './lib/tic_tac_toe.rb' do
 
       play(board)
     end
-=end
+
     it 'congratulates the winner X' do
       board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
       allow($stdout).to receive(:puts)
