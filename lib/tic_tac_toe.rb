@@ -142,4 +142,3 @@ puts(draw?(board))
 puts(full?(board))
 puts("over?  #{over?(board)}, !!!")
 =end
-
