@@ -116,25 +116,25 @@ display_board(board)
 puts(won?(board))
 puts(draw?(board))
 puts(full?(board))
-puts(over?(board))
+puts("over?  ", over?(board), "!!!"
 
 board = ['X', ' ', ' ', ' ', 'X', ' ', ' ', ' ', 'X']
 display_board(board)
 puts(won?(board))
 puts(draw?(board))
 puts(full?(board))
-puts(over?(board))
+puts("over?  ", over?(board), "!!!"
 
 board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
 display_board(board)
 puts(won?(board))
 puts(draw?(board))
 puts(full?(board))
-puts(over?(board))
+puts("over?  ", over?(board), "!!!"
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 display_board(board)
 puts(won?(board))
 puts(draw?(board))
 puts(full?(board))
-puts(over?(board))
+puts("over?  ", over?(board), "!!!"
